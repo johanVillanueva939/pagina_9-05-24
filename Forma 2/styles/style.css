@@ -11,7 +11,7 @@ body{
 	color:#eaff00;
 }
 /*header*/
-header{
+.header-form1-2{
 	background-color: rgb(36, 40, 43);
 	display: flex;
 	justify-content: space-around;
@@ -275,4 +275,41 @@ footer{
 	background-color:rgb(18, 140, 189);;
 	color: whitesmoke;
 	height: 80px;
+}
+/*--------section2-1-form2-------*/
+.header-nos{
+		background-color: rgb(36, 40, 43);
+		display: flex;
+		justify-content: space-around;
+		padding: 3vh 0px;
+		border-bottom: solid 6px rgb(18, 140, 189);
+		width: 100%;
+		z-index: 1;
+}
+#sect1{
+	width: 1300px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+.nosostros-2{
+	background-color:rgb(36, 40, 43) ;
+	color:rgb(255, 255, 255) ;
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh 200px;
+	position: sticky;
+}
+#email_input{
+	width: 250px;
+	padding: 10px;
+	border: solid 1px rgba(232, 73, 29, 0.632)
+}
+#btn-subs{
+	background-color: rgb(232, 73, 29);
+	color: whitesmoke;
+	padding: 10px;
+	border: none;
+}
+#btn-subs:hover{
+	transform: scale(.99);
 }
